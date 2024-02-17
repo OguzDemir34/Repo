@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>dilovası.kml</name>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8000ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ff00aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<PolyStyle>
+			<color>80000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<PolyStyle>
+			<color>800000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<PolyStyle>
+			<color>80ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<PolyStyle>
+			<color>80ff00aa</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>dilovası</name>
+		<open>1</open>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 1987-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+				</Data>
+				<Data name="ParselNo">
+					<value>1987</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,500.00</value>
+				</Data>
+				<Data name="Pafta">
+					<value>22</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.596,40.83916,0 29.596,40.83916,0 29.59556,40.83923,0 29.59553,40.83924,0 29.59519,40.83929,0 29.59500999999999,40.83932,0 29.59504,40.83911,0 29.59505,40.83904,0 29.59508,40.83888,0 29.59516,40.83886,0 29.5956,40.83875,0 29.59572,40.83872,0 29.596,40.83916,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-10-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>10</value>
+				</Data>
+				<Data name="Alan">
+					<value>8,353.81</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59649,40.83869,0 29.5966,40.83896,0 29.59602,40.83916,0 29.596,40.83916,0 29.59594,40.83908,0 29.59572,40.83872,0 29.59572,40.83872,0 29.59563,40.83822,0 29.59613,40.83811,0 29.59616,40.83811,0 29.59667,40.83802,0 29.59673,40.83795,0 29.59678,40.83847,0 29.59649,40.83869,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-16-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>16</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,946.14</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59901,40.83891,0 29.59806,40.8392,0 29.59774,40.83875,0 29.59801,40.83863,0 29.59828,40.83851,0 29.59853,40.8385,0 29.59872,40.83841,0 29.59898,40.83841,0 29.59901,40.83891,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 662-ada-1-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>662</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>1</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,431.95</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2, G23-A-18-A-1</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59906,40.83841,0 29.59981,40.83806,0 29.60021,40.83814,0 29.59945,40.83881,0 29.59908,40.83891,0 29.59906,40.83841,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 662-ada-3-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>662</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>3</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,008.77</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-18-A-4,</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59952,40.83775,0 29.59908,40.83823,0 29.59902,40.83734,0 29.60013,40.83734,0 29.60028,40.83758,0 29.59952,40.83775,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-17-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>17</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,640.72</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59845,40.83752,0 29.59897,40.83736,0 29.59898,40.83841,0 29.59872,40.83841,0 29.59845,40.83752,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-15-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>15</value>
+				</Data>
+				<Data name="Alan">
+					<value>1,420.17</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59872,40.83841,0 29.59853,40.8385,0 29.59834,40.83748,0 29.59845,40.83752,0 29.59872,40.83841,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-14-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>14</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,868.10</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59853,40.8385,0 29.59828,40.83851,0 29.59797,40.83768,0 29.59834,40.83748,0 29.59853,40.8385,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-13-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>13</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,677.14</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59828,40.83851,0 29.59801,40.83863,0 29.59764,40.83766,0 29.59797,40.83768,0 29.59828,40.83851,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-12-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>12</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,489.03</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59745,40.83773,0 29.59764,40.83766,0 29.59801,40.83863,0 29.59774,40.83875,0 29.59745,40.83773,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-11-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>11</value>
+				</Data>
+				<Data name="Alan">
+					<value>10,822.24</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59745,40.83722,0 29.59749,40.83698,0 29.59758,40.83674,0 29.59788,40.83679,0 29.5981,40.83678,0 29.59833,40.83676,0 29.59841,40.8374,0 29.59834,40.83748,0 29.59797,40.83768,0 29.59764,40.83766,0 29.59745,40.83773,0 29.59678,40.83847,0 29.59673,40.83795,0 29.59717,40.83747,0 29.59735999999999,40.83732,0 29.59745,40.83722,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-18-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>18</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,511.54</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59898,40.83656,0 29.59897,40.83736,0 29.59845,40.83752,0 29.59834,40.83748,0 29.59841,40.8374,0 29.59833,40.83676,0 29.59873,40.83662,0 29.59898,40.83656,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-21-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>21</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,661.17</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59772,40.83572,0 29.59761,40.83539,0 29.59772,40.83541,0 29.59789,40.83591,0 29.5981,40.83678,0 29.59788,40.83679,0 29.59758,40.83674,0 29.5974,40.83621,0 29.59772,40.83572,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-20-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>20</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,996.11</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59789,40.83591,0 29.59772,40.83541,0 29.59784000000001,40.83539,0 29.59838,40.83542,0 29.59853,40.83594,0 29.59867,40.83641,0 29.59868,40.83644,0 29.59873,40.83662,0 29.59833,40.83676,0 29.5981,40.83678,0 29.59789,40.83591,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-22-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>22</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,488.79</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59838,40.83542,0 29.59784000000001,40.83539,0 29.59772,40.83541,0 29.59761,40.83539,0 29.59742,40.83491,0 29.59721,40.83467,0 29.597,40.83439,0 29.59738,40.8345,0 29.59825,40.83459,0 29.59838,40.83542,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-23-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>23</value>
+				</Data>
+				<Data name="Alan">
+					<value>9,005.70</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59825,40.83459,0 29.59827,40.83458,0 29.59935,40.83452,0 29.59935,40.83465,0 29.59936,40.83488,0 29.59937,40.83526,0 29.59936,40.83551,0 29.59901,40.83548,0 29.59888,40.83547,0 29.5987,40.83545,0 29.59849,40.83543,0 29.59838,40.83542,0 29.59825,40.83459,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-24-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>24</value>
+				</Data>
+				<Data name="Alan">
+					<value>1,324.76</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59911,40.83438,0 29.59935,40.83452,0 29.59827,40.83458,0 29.59828,40.83444,0 29.59911,40.83438,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-25-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>25</value>
+				</Data>
+				<Data name="Alan">
+					<value>1,152.23</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59828,40.83444,0 29.59827,40.83458,0 29.59825,40.83459,0 29.59738,40.8345,0 29.5974,40.83438,0 29.59828,40.83444,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-27-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>27</value>
+				</Data>
+				<Data name="Alan">
+					<value>9,269.98</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59828,40.83444,0 29.5974,40.83438,0 29.59715,40.83389,0 29.59798,40.83368,0 29.59885,40.83403,0 29.59911,40.83438,0 29.59828,40.83444,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-26-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>26</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,006.57</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59628,40.83419,0 29.5964,40.83417,0 29.59664,40.834,0 29.59715,40.83389,0 29.5974,40.83438,0 29.59738,40.8345,0 29.597,40.83439,0 29.59682,40.83429,0 29.59628,40.83419,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-29-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>29</value>
+				</Data>
+				<Data name="Alan">
+					<value>1,355.64</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59653,40.83381,0 29.59664,40.834,0 29.5964,40.83417,0 29.59628,40.83419,0 29.59588,40.83409,0 29.59653,40.83381,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-28-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>28</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,335.28</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59715,40.83389,0 29.59664,40.834,0 29.59653,40.83381,0 29.59647,40.83376,0 29.59769,40.83348,0 29.59798,40.83368,0 29.59715,40.83389,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-31-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>31</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,376.90</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59769,40.83348,0 29.59647,40.83376,0 29.59635,40.83349,0 29.59675,40.83336,0 29.59742,40.83325,0 29.59769,40.83348,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-32-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>32</value>
+				</Data>
+				<Data name="Alan">
+					<value>8,832.10</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59623,40.83331,0 29.5952,40.83338,0 29.59519,40.83335,0 29.59514,40.83313,0 29.59513,40.83288,0 29.5955,40.8329,0 29.59599,40.83302,0 29.59693,40.83278,0 29.59742,40.83325,0 29.59675,40.83336,0 29.59635,40.83349,0 29.59623,40.83331,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-33-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>33</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,304.72</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.5955,40.8329,0 29.59513,40.83288,0 29.59504,40.83237,0 29.59551,40.83251,0 29.59585,40.83262,0 29.59635,40.83274,0 29.59671,40.83261,0 29.59693,40.83278,0 29.59599,40.83302,0 29.5955,40.8329,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-35-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>35</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,729.85</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59584,40.83214,0 29.59585,40.83262,0 29.59551,40.83251,0 29.59504,40.83237,0 29.59495,40.83191,0 29.59544,40.83201,0 29.59584,40.83214,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-34-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>34</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,336.03</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Deretarla</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59651,40.83228,0 29.59671,40.83261,0 29.59635,40.83274,0 29.59585,40.83262,0 29.59584,40.83214,0 29.59651,40.83228,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-9-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>9</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,756.69</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59474,40.83842,0 29.59478,40.83848,0 29.59487,40.83862,0 29.59493,40.8386,0 29.59525,40.83848,0 29.59522,40.83843,0 29.59515,40.83831,0 29.59563,40.83822,0 29.59572,40.83872,0 29.5956,40.83875,0 29.59516,40.83886,0 29.59508,40.83888,0 29.59505,40.83904,0 29.59505,40.83908,0 29.59458,40.83918,0 29.59407,40.8393,0 29.59402,40.83917,0 29.59431,40.83877,0 29.5944,40.83864,0 29.59447,40.8386,0 29.59457,40.83857,0 29.59456,40.83854,0 29.5946,40.83851,0 29.59474,40.83842,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-1-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>1</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,846.23</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59402,40.83917,0 29.59345,40.83943,0 29.59335,40.83948,0 29.5933,40.83871,0 29.59362,40.83862,0 29.59415,40.83851,0 29.59418,40.83851,0 29.59425999999999,40.83866,0 29.59447,40.8386,0 29.5944,40.83864,0 29.59431,40.83877,0 29.59402,40.83917,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-62-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>62</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,360.26</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59745,40.83722,0 29.59735999999999,40.83732,0 29.59717,40.83747,0 29.59677,40.83744,0 29.59659,40.83723,0 29.59749,40.83698,0 29.59745,40.83722,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-61-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>61</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,273.87</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.5963,40.83686,0 29.59758,40.83674,0 29.59749,40.83698,0 29.59659,40.83723,0 29.5963,40.83686,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-60-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>60</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,418.10</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59638,40.83659,0 29.59712,40.83631,0 29.5974,40.83621,0 29.59758,40.83674,0 29.5963,40.83686,0 29.59638,40.83659,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-48-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>48</value>
+				</Data>
+				<Data name="Alan">
+					<value>6,963.36</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59761,40.83539,0 29.59772,40.83572,0 29.5974,40.83621,0 29.59712,40.83631,0 29.59686,40.83574,0 29.5965,40.83511,0 29.59761,40.83539,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-50-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>50</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,037.08</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59686,40.83574,0 29.59712,40.83631,0 29.59638,40.83659,0 29.59597,40.8362,0 29.59591,40.83557,0 29.596,40.83556,0 29.59606,40.83568,0 29.59618,40.83575,0 29.59686,40.83574,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-49-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>49</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,349.84</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59618,40.83575,0 29.59606,40.83568,0 29.596,40.83556,0 29.5961,40.83529,0 29.5965,40.83511,0 29.59686,40.83574,0 29.59618,40.83575,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-51-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>51</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,309.96</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59578,40.83546,0 29.59591,40.83557,0 29.59597,40.8362,0 29.59532,40.83632,0 29.59518,40.83535,0 29.59578,40.83546,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-52-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>52</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,847.80</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59532,40.83632,0 29.59488,40.83627,0 29.59475,40.83592,0 29.59465,40.83515,0 29.59518,40.83535,0 29.59532,40.83632,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-56-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>56</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,648.97</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59412,40.83587,0 29.59418,40.83577,0 29.59443,40.83541,0 29.59448,40.83592,0 29.59475,40.83592,0 29.59488,40.83627,0 29.59446,40.83642,0 29.59434,40.83646,0 29.59414,40.83609,0 29.59412,40.83587,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-57-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>57</value>
+				</Data>
+				<Data name="Alan">
+					<value>931.61</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.594,40.83632,0 29.59391,40.83617,0 29.59396,40.83615,0 29.59414,40.83609,0 29.59434,40.83646,0 29.59414,40.83655,0 29.594,40.83632,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-54-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>54</value>
+				</Data>
+				<Data name="Alan">
+					<value>1,075.51</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59397,40.83458,0 29.59435,40.83477,0 29.59443,40.83541,0 29.59397,40.83458,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-46-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>46</value>
+				</Data>
+				<Data name="Alan">
+					<value>8,302.59</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.5965,40.83511,0 29.5961,40.83529,0 29.596,40.83556,0 29.59591,40.83557,0 29.59578,40.83546,0 29.59573,40.83533,0 29.59528,40.83401,0 29.59546,40.834,0 29.59576,40.83408,0 29.5965,40.83511,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-45-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>45</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,046.84</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59523,40.83399,0 29.59528,40.83401,0 29.59573,40.83533,0 29.59578,40.83546,0 29.59518,40.83535,0 29.59523,40.83399,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-44-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>44</value>
+				</Data>
+				<Data name="Alan">
+					<value>4,514.70</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59498,40.83434,0 29.59517,40.83395,0 29.59523,40.83399,0 29.59518,40.83535,0 29.59465,40.83515,0 29.59461,40.83491,0 29.59498,40.83434,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-42-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>42</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,389.86</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59532,40.83369,0 29.59546,40.834,0 29.59528,40.83401,0 29.59523,40.83399,0 29.59517,40.83395,0 29.59498,40.83434,0 29.594,40.83396,0 29.59391,40.83344,0 29.59532,40.83369,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-41-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>41</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,577.70</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59519,40.83335,0 29.5952,40.83338,0 29.59532,40.83369,0 29.59391,40.83344,0 29.59407,40.83317,0 29.59519,40.83335,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-40-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>40</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,006.41</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59413,40.83299,0 29.59514,40.83313,0 29.59519,40.83335,0 29.59407,40.83317,0 29.59413,40.83299,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-39-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>39</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,868.24</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59413,40.83299,0 29.59429,40.83236,0 29.59504,40.83237,0 29.59513,40.83288,0 29.59514,40.83313,0 29.59413,40.83299,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Çerkeşli Mahallesi 661-ada-53-parsel</name>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>53</value>
+				</Data>
+				<Data name="Alan">
+					<value>2,580.14</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59475,40.83592,0 29.59448,40.83592,0 29.59443,40.83541,0 29.59435,40.83477,0 29.59461,40.83491,0 29.59465,40.83515,0 29.59475,40.83592,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>has Demirçeliki 663-ada-2-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>663</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>2</value>
+				</Data>
+				<Data name="Alan">
+					<value>11,594.33</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-18-A-4</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.60059,40.83408,0 29.60113,40.83409,0 29.60137,40.83409,0 29.6015,40.83453,0 29.60152,40.83461,0 29.59944,40.83493,0 29.59938,40.8345,0 29.60025,40.83408,0 29.60059,40.83408,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>has Demirçeliki 663-ada-1-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>663</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>1</value>
+				</Data>
+				<Data name="Alan">
+					<value>16,286.91</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-18-A-4</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.60163,40.83496,0 29.60172,40.83528,0 29.60137,40.8353,0 29.601,40.83534,0 29.60057,40.83539,0 29.59994,40.83547,0 29.59998,40.83575,0 29.60003,40.83613,0 29.5997,40.83611,0 29.59933,40.83608,0 29.59942,40.83591,0 29.59945,40.83549,0 29.59944,40.83493,0 29.60152,40.83461,0 29.60153,40.83462,0 29.60163,40.83496,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>has Demirçelik 661-ada-19-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>19</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,168.43</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59853,40.83594,0 29.59838,40.83542,0 29.59849,40.83543,0 29.5987,40.83545,0 29.59888,40.83547,0 29.59901,40.83548,0 29.59936,40.83551,0 29.59934000000001,40.83573,0 29.59929,40.83608,0 29.59915,40.8363,0 29.59898,40.83656,0 29.59873,40.83662,0 29.59868,40.83644,0 29.59867,40.83641,0 29.59853,40.83594,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Arı çivi inşaat 661-ada-58-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>58</value>
+				</Data>
+				<Data name="Alan">
+					<value>7,485.33</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59509,40.8371,0 29.59454,40.83663,0 29.59434,40.83646,0 29.59446,40.83642,0 29.59488,40.83627,0 29.59532,40.83632,0 29.59577000000001,40.83704,0 29.59547,40.83742,0 29.59509,40.8371,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>5 kişi akgün soy isimli661-ada-59-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>59</value>
+				</Data>
+				<Data name="Alan">
+					<value>15,745.68</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3, G23-A-17-B-2</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59577000000001,40.83704,0 29.59532,40.83632,0 29.59597,40.8362,0 29.59638,40.83659,0 29.5963,40.83686,0 29.59659,40.83723,0 29.59677,40.83744,0 29.59717,40.83747,0 29.59673,40.83795,0 29.59667,40.83802,0 29.59616,40.83811,0 29.59547,40.83742,0 29.59577000000001,40.83704,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>seyhan nuray sunay  661-ada-43-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>43</value>
+				</Data>
+				<Data name="Alan">
+					<value>5,166.92</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59461,40.83491,0 29.59435,40.83477,0 29.59397,40.83458,0 29.594,40.83396,0 29.59498,40.83434,0 29.59461,40.83491,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>4 kişi bilgiç ve tuntaş soy isimlerii 661-ada-47-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>47</value>
+				</Data>
+				<Data name="Alan">
+					<value>10,017.93</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.5965,40.83511,0 29.59576,40.83408,0 29.59588,40.83409,0 29.59628,40.83419,0 29.59682,40.83429,0 29.597,40.83439,0 29.59721,40.83467,0 29.59742,40.83491,0 29.59761,40.83539,0 29.5965,40.83511,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>9 kişi soy isim ağun 661-ada-30-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>30</value>
+				</Data>
+				<Data name="Alan">
+					<value>6,667.13</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59623,40.83331,0 29.59635,40.83349,0 29.59647,40.83376,0 29.59653,40.83381,0 29.59588,40.83409,0 29.59576,40.83408,0 29.59546,40.834,0 29.59532,40.83369,0 29.5952,40.83338,0 29.59623,40.83331,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>fahrettin özen 661-ada-38-parsel</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<ExtendedData>
+				<Data name="İl">
+					<value>Kocaeli</value>
+				</Data>
+				<Data name="İlçe">
+					<value>Dilovasi</value>
+				</Data>
+				<Data name="Mahalle">
+					<value>Çerkeşli</value>
+				</Data>
+				<Data name="Ada">
+					<value>661</value>
+				</Data>
+				<Data name="ParselNo">
+					<value>38</value>
+				</Data>
+				<Data name="Alan">
+					<value>3,789.78</value>
+				</Data>
+				<Data name="Pafta">
+					<value>G23-A-17-B-3</value>
+				</Data>
+				<Data name="Nitelik">
+					<value>Tarla</value>
+				</Data>
+				<Data name="Mevkii">
+					<value>Güvemli</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							29.59421,40.83171,0 29.59495,40.83191,0 29.59504,40.83237,0 29.59429,40.83236,0 29.59421,40.83171,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
