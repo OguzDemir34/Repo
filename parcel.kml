@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Meşrutiyet Mahallesi 1905-ada-193-parsel</name>
+    <ExtendedData>
+      <Data name="İl">
+        <value>Istanbul</value>
+      </Data>
+      <Data name="İlçe">
+        <value>Şişli</value>
+      </Data>
+      <Data name="Mahalle">
+        <value>Meşrutiyet</value>
+      </Data>
+      <Data name="Ada">
+        <value>1905</value>
+      </Data>
+      <Data name="ParselNo">
+        <value>193</value>
+      </Data>
+      <Data name="Alan">
+        <value>1,205.00</value>
+      </Data>
+      <Data name="Pafta">
+        <value>131</value>
+      </Data>
+      <Data name="Nitelik">
+        <value>Bir Mağaza Ve Onsekiz Bürosu Olan Oniki Katli Kargir Iş Hani</value>
+      </Data>
+      <Data name="Mevkii">
+        <value />
+      </Data>
+    </ExtendedData>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>28.989260000000002,41.061520000000002
+28.989270000000001,41.061520000000002
+28.989750000000001,41.061819999999997
+28.98958,41.061990000000002
+28.989360000000001,41.06185
+28.989090000000001,41.061689999999999
+28.989260000000002,41.061520000000002</coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>
